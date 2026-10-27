@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Lorem ipsum dolor sit amet." />
     <title>Dáblio Prótese</title>
-    <link rel="icon" type="image/svg+xml" href="assets/favicon_dablio.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;800&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo_dablio.svg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -22,13 +25,16 @@
         <a href="#localizacao">Localização</a>
       </nav>
 
-      <a class="header-action" href="#contato">Contato</a>
+      <a class="header-action" href="#contato">
+        <img class="navbar-action-icon" src="assets/message_4077160.png" alt="" aria-hidden="true" />
+        <span>Contato</span>
+      </a>
     </header>
 
     <main>
       <section class="hero" id="inicio">
         <div class="hero-squircle hero-squircle-left">
-          <img src="assets/implante-squircle-esquerdo.png" alt="Implante dentário com coroa sendo segurado por luvas" />
+          <img src="assets/ImageSquircleEsquerdo.png" alt="Implante dentário com coroa sendo segurado por luvas" />
         </div>
 
         <div class="hero-copy">
@@ -45,6 +51,86 @@
 
         <div class="hero-squircle hero-squircle-right">
           <img src="assets/ImageSquircleDireito.png" alt="Foto de protese dentaria em cerâmica" />
+        </div>
+      </section>
+
+      <section class="solutions" id="solucoes" aria-labelledby="solutions-title">
+        <div class="solutions-inner">
+          <h2 id="solutions-title">Nossa Especialidade</h2>
+          <article class="solutions-content solution-superior">
+            <div class="card-imagem-1" data-carousel aria-live="off">
+              <figure class="carousel-slide is-active" aria-hidden="false">
+                <img src="assets/protocolo-superior.png" alt="Prótese dentária sobre implantes segurada por uma mão com luva roxa" />
+              </figure>
+              <figure class="carousel-slide" aria-hidden="true">
+                <img src="assets/protocolo-superior-2.png" alt="Prótese dentária sobre modelo de gengiva e dentes segurada por uma mão" />
+              </figure>
+              <figure class="carousel-slide" aria-hidden="true">
+                <img src="assets/protocolo-superior-3.png" alt="Prótese dentária instalada em modelo odontológico segurado com luvas azuis" />
+              </figure>
+            </div>
+            <div class="solutions-copy">
+              <div class="solution-card-description" data-character-limit="665">
+                <h3>Protocolo Superior</h3>
+                <p>
+                  Prótese para reabilitação total da arcada superior sobre implantes,
+                  planejada para combinar função mastigatória, estabilidade e estética
+                  natural. A estrutura pode ser confeccionada em
+                  <strong>PMMA (polimetilmetacrilato)</strong>, resina acrílica leve e
+                  versátil, associada a dentes em resina acrílica ou composta.
+                </p>
+                <p>
+                  Anatomia, tonalidade e contorno gengival são definidos de forma
+                  personalizada. Conforme o planejamento protético, podem ser
+                  incorporados componentes ou estrutura de <strong>titânio</strong>,
+                  material biocompatível e resistente que favorece a conexão com os
+                  implantes e a estabilidade da reabilitação.
+                </p>
+              </div>
+              <a class="solution-title-cta" href="#contato">
+                <span class="solution-cta-icon" aria-hidden="true"><img src="assets/solution-cta.svg" alt="" /></span>
+                <span>Solicitar parceria</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="solutions-content solution-inferior">
+            <div class="card-imagem-2" data-carousel aria-live="off">
+              <figure class="carousel-slide is-active" aria-hidden="false">
+                <img src="assets/protocolo-inferior-1.png" alt="Prótese inferior com dentes sobre gengiva rosada em fundo preto" />
+              </figure>
+              <figure class="carousel-slide" aria-hidden="true">
+                <img src="assets/protocolo-inferior-2.png" alt="Prótese dentária montada em equipamento de fotografia" />
+              </figure>
+              <figure class="carousel-slide" aria-hidden="true">
+                <img src="assets/protocolo-inferior-3.png" alt="Modelo de arcada dentária protética em fundo vermelho" />
+              </figure>
+            </div>
+            <div class="solutions-copy">
+              <div class="solution-card-description" data-character-limit="665">
+                <h3>Protocolo Inferior</h3>
+                <p>
+                  Prótese para reabilitação total da arcada mandibular, planejada para
+                  unir função, conforto e estética. Pode ser feita em
+                  <strong>PMMA (polimetilmetacrilato)</strong>, resina leve e versátil,
+                  com dentes em resina acrílica ou composta.
+                </p>
+                <p>
+                  Anatomia, tonalidade e contorno gengival são personalizados.
+                  Componentes de <strong>titânio</strong> e estruturas metálicas
+                  podem ser incorporados conforme o planejamento, favorecendo a
+                  conexão com os implantes, a distribuição das forças mastigatórias
+                  e a resistência da prótese. A fabricação inclui adaptação, montagem
+                  dos dentes, caracterização gengival, ajuste oclusal e polimento
+                  final.
+                </p>
+              </div>
+              <a class="solution-title-cta" href="#contato">
+                <span class="solution-cta-icon" aria-hidden="true"><img src="assets/solution-cta.svg" alt="" /></span>
+                <span>Solicitar parceria</span>
+              </a>
+            </div>
+          </article>
         </div>
       </section>
 
